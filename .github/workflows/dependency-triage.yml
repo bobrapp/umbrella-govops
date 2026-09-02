@@ -17,4 +17,4 @@ jobs:
     uses: aigovops-foundation/aigovops-library-june-ken-bob/.github/workflows/reusable-dependency-triage.yml@main
     with:
       working_directory: "sdk/typescript"
-      verify_command: "npm test"
+      verify_command: "npm run build && npm test"
